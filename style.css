@@ -1,69 +1,86 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
 header {
-    background-color: rgb(58, 148, 221);
-    padding: 40px;
+  background-color: rgb(58, 148, 221);
+  padding: 40px;
 }
+
 header h1 {
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Fruktur', cursive;
-    background: -webkit-linear-gradient(rgb(7, 13, 53), rgb(255, 0, 0));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: 5px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Fruktur', cursive;
+  background: -webkit-linear-gradient(rgb(7, 13, 53), rgb(255, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 5px;
 }
+
 header ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    margin-top: 30px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 30px;
 }
+
 header ul li {
-    padding: 0 20px;
-    font-size: 20px;
+  padding: 0 20px;
+  font-size: 20px;
 }
+
 header ul #first-list {
-    background-color: red;
+  background-color: red;
 }
+
 header ul #first-list:hover {
-    background-color: #fff;;
+  background-color: #fff;
 }
+
 header ul #second-list {
-    background-color: blue;
+  background-color: blue;
 }
+
 header ul #second-list:hover {
-    background-color: #fff;;
+  background-color: #fff;
 }
+
 header ul #third-list {
-    background-color: green;
+  background-color: green;
 }
+
 header ul #third-list:hover {
-    background-color: #fff;;
+  background-color: #fff;
 }
+
 header ul #fourth-list {
-    background-color: orange;
+  background-color: orange;
 }
+
 header ul #fourth-list:hover {
-    background-color: #fff;;
+  background-color: #fff;
 }
+
 header ul li a {
-    text-decoration: none;
-    font-family: 'Abril Fatface', cursive;
-    color: #fff;
+  text-decoration: none;
+  font-family: 'Abril Fatface', cursive;
+  color: #fff;
 }
+
 header ul li #first-link:hover {
-    color: red;
+  color: red;
 }
+
 header ul li #second-link:hover {
-    color: blue;
+  color: blue;
 }
+
 header ul li #third-link:hover {
-    color: green;
+  color: green;
 }
+
 header ul li #fourth-link:hover {
-    color: orange;
+  color: orange;
 }
